@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <!-- Affinity Designer 2 用サンプル。要素に id を付けておくと、後の指示（「見出しを大きく」等）で特定しやすい。 -->
+  <g id="poster">
+    <rect id="background" x="0" y="0" width="1080" height="1350" fill="#F4EFE6"/>
+    <rect id="header-band" x="0" y="0" width="1080" height="520" fill="#3B2A20"/>
+    <circle id="accent-circle" cx="860" cy="500" r="140" fill="#C8873A"/>
+    <text id="headline" x="80" y="260" font-family="Helvetica, Arial, sans-serif" font-size="120" font-weight="700" fill="#FFFFFF">OPEN DAY</text>
+    <text id="date" x="80" y="360" font-family="Helvetica, Arial, sans-serif" font-size="44" fill="#FFFFFF">10.25 SAT  10:00 - 17:00</text>
+  </g>
+</svg>

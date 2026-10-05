@@ -1,0 +1,5 @@
+node_modules/
+# SDK ドキュメントのローカルコピー（node tools/affinity.mjs docs --all で生成）
+.affinity-docs/
+# プレビュー画像
+renders/

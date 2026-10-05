@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run check)",
+      "Bash(npm test)",
+      "Bash(node tools/affinity.mjs check)",
+      "Bash(node tools/affinity.mjs render:*)",
+      "Bash(node tools/affinity.mjs docs:*)",
+      "Bash(node tools/svg.mjs preview:*)",
+      "mcp__affinity__read_sdk_documentation_topic",
+      "mcp__affinity__list_sdk_documentation",
+      "mcp__affinity__search_sdk_hints",
+      "mcp__affinity__list_library_scripts",
+      "mcp__affinity__read_library_script",
+      "mcp__affinity__render_spread",
+      "mcp__affinity__render_selection"
+    ]
+  }
+}
