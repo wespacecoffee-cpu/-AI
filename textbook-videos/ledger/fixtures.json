@@ -1,0 +1,126 @@
+[
+  {
+    "id": "fx-triad", "chapter": 0, "chapterLabel": "序章", "before": "-", "title": "人の問題を三つに分ける",
+    "summary": ["見本"],
+    "film": { "kind": "triad", "nodes": [{ "word": "構造", "note": "情報・権限・分業" }, { "word": "インセンティブ", "note": "その行動は得か" }, { "word": "認知", "note": "解釈の系統的な歪み" }], "center": { "word": "人の問題", "note": "精神論で止めない" } },
+    "beats": [
+      { "caption": ["誰がやっても同じことが起きるなら、構造です"], "show": 1 },
+      { "caption": ["「けしからん行動」ほど、よく見ると合理的です"], "show": 2 },
+      { "caption": ["善意で正確なつもりの人間が、それでも間違う経路"], "show": 3 },
+      { "caption": ["分解できて初めて、打ち手が精神論以外になります", { "mark": "頑健" }], "show": 4 }
+    ],
+    "closing": { "phrase": "分解して、設計する", "mark": "有力" }, "sources": []
+  },
+  {
+    "id": "fx-spectrum", "chapter": 1, "chapterLabel": "第1章", "before": "-", "title": "市場か、組織か",
+    "summary": ["見本"],
+    "film": { "kind": "spectrum", "left": { "word": "市場", "note": "毎回契約する" }, "right": { "word": "組織", "note": "雇って指示する" }, "markers": [{ "word": "中間形態", "at": 0.5, "note": "長期取引・系列" }, { "word": "外注", "at": 0.18 }] },
+    "beats": [
+      { "caption": ["市場と組織は、取引のやり方の両端です"], "show": 1 },
+      { "caption": ["その間には広い中間地帯がある", { "mark": "有力" }], "show": 2 },
+      { "caption": ["外注は市場の側に寄る"], "show": 3 }
+    ],
+    "closing": { "phrase": "境界は、コストで決まる" }, "sources": []
+  },
+  {
+    "id": "fx-path", "chapter": 2, "chapterLabel": "第2章", "before": "-", "title": "悪い報告が死ぬ経路",
+    "summary": ["見本"],
+    "film": { "kind": "path", "stations": [{ "word": "現場", "note": "異変に気づく" }, { "word": "係長", "note": "様子を見る" }, { "word": "課長", "note": "丸めて上げる" }, { "word": "社長", "note": "知らない" }], "broken": 2 },
+    "beats": [
+      { "caption": ["現場は異変に最初に気づく"], "show": 1 },
+      { "caption": ["係長の段で「様子見」が入る"], "show": 2 },
+      { "caption": ["階層を一段上がるごとに、悪い情報は薄まる", { "mark": "有力" }], "show": 4 }
+    ],
+    "closing": { "phrase": "報告は価格で動く", "mark": "有力" }, "sources": []
+  },
+  {
+    "id": "fx-contrast", "chapter": 6, "chapterLabel": "第6章", "before": "-", "title": "エラーの二つの見方",
+    "summary": ["見本"],
+    "film": { "kind": "contrast", "left": { "head": "人を責める", "lines": ["気をつけろと言う", "担当者を替える"] }, "right": { "head": "設計を責める", "lines": ["間違えにくくする", "急所を一桁に絞る"] }, "emphasis": "right", "verdict": "気合より、仕組み" },
+    "beats": [
+      { "caption": ["ミスの原因を、人の注意不足に求める見方"], "show": 1 },
+      { "caption": ["ミスを生む設計のほうを直す見方"], "show": 2 },
+      { "caption": ["「気をつけろ」は効きにくい", { "mark": "頑健" }], "show": 3 }
+    ],
+    "closing": { "phrase": "人ではなく設計を直す", "mark": "頑健" }, "sources": []
+  },
+  {
+    "id": "fx-axes", "chapter": 8, "chapterLabel": "第8章", "before": "-", "title": "安全 × 基準",
+    "summary": ["見本"],
+    "film": { "kind": "axes", "x": { "label": "心理的安全", "low": "低い", "high": "高い" }, "y": { "label": "基準", "low": "低い", "high": "高い" }, "quadrants": { "tl": { "word": "不安", "note": "言えずに疲弊" }, "tr": { "word": "学習", "note": "率直で高い水準" }, "bl": { "word": "無関心", "note": "何も起きない" }, "br": { "word": "ぬるま湯", "note": "居心地だけ良い" } }, "focus": "tr" },
+    "beats": [
+      { "caption": ["安全と基準は、別々の軸です"], "show": 1 },
+      { "caption": ["安全だけを上げると、ぬるま湯になる"], "show": 2 },
+      { "caption": ["両方が高いところで、学習が起きる", { "mark": "有力" }], "show": 3 }
+    ],
+    "closing": { "phrase": "安全と基準は、ペアで上げる" }, "sources": []
+  },
+  {
+    "id": "fx-loop", "chapter": 9, "chapterLabel": "第9章", "before": "-", "title": "協力が崩れていく循環",
+    "summary": ["見本"],
+    "film": { "kind": "loop", "nodes": [{ "word": "手抜き" }, { "word": "不公平感" }, { "word": "協力が減る" }, { "word": "見えなくなる" }], "tone": "vicious", "center": { "word": "悪循環" } },
+    "beats": [
+      { "caption": ["誰かが手を抜く"], "show": 1 },
+      { "caption": ["頑張る人に不公平感が生まれる"], "show": 2 },
+      { "caption": ["条件付き協力者が協力をやめる", { "mark": "頑健" }], "show": 3 },
+      { "caption": ["貢献が見えにくくなり、さらに手抜きが増える"], "show": 5 }
+    ],
+    "closing": { "phrase": "協力者を守る仕組みを" }, "sources": []
+  },
+  {
+    "id": "fx-strata", "chapter": 4, "chapterLabel": "第4章", "before": "-", "title": "金銭は三層で設計する",
+    "summary": ["見本"],
+    "film": { "kind": "strata", "layers": [{ "word": "公正な基本", "note": "土台は動かさない" }, { "word": "変動", "note": "撤去できる形で" }, { "word": "贈与", "note": "予告なしに" }] },
+    "beats": [
+      { "caption": ["土台は、公正な基本給"], "show": 1 },
+      { "caption": ["その上に、撤去可能な変動部分"], "show": 2 },
+      { "caption": ["いちばん上に、予告なしの贈与", { "mark": "仮説/経験則" }], "show": 3 }
+    ],
+    "closing": { "phrase": "三層で、上書きしない" }, "sources": []
+  },
+  {
+    "id": "fx-venn", "chapter": 21, "chapterLabel": "第21章", "before": "-", "title": "三つの円が重なる場所",
+    "summary": ["見本"],
+    "film": { "kind": "venn", "circles": [{ "word": "家族" }, { "word": "所有" }, { "word": "経営" }], "overlap": { "word": "同族経営", "note": "強みと弱みが不可分" } },
+    "beats": [
+      { "caption": ["家族の円"], "show": 1 },
+      { "caption": ["所有の円"], "show": 2 },
+      { "caption": ["経営の円"], "show": 3 },
+      { "caption": ["三つが重なるところに、同族経営の難しさがある", { "mark": "有力" }], "show": 4 }
+    ],
+    "closing": { "phrase": "円を切り分けて話す" }, "sources": []
+  },
+  {
+    "id": "fx-balance", "chapter": 11, "chapterLabel": "第11章", "before": "-", "title": "分業の利益と調整コスト",
+    "summary": ["見本"],
+    "film": { "kind": "balance", "left": { "word": "分業の利益", "items": ["専門化", "習熟"] }, "right": { "word": "調整コスト", "items": ["部門の壁", "引き継ぎ"] }, "tilt": "level", "pivot": "構造の選択" },
+    "beats": [
+      { "caption": ["分ければ、専門化の利益が出る"], "show": 1 },
+      { "caption": ["分ければ、つなぐコストもかかる"], "show": 2 },
+      { "caption": ["構造とは、この二つの交換条件です", { "mark": "頑健" }], "show": 3 }
+    ],
+    "closing": { "phrase": "構造は交換条件" }, "sources": []
+  },
+  {
+    "id": "fx-stairs", "chapter": 20, "chapterLabel": "第20章", "before": "-", "title": "成長は危機の連続",
+    "summary": ["見本"],
+    "film": { "kind": "stairs", "steps": [{ "word": "創業期", "note": "社長が全部見る" }, { "word": "30人", "note": "目が届かない" }, { "word": "仕組み化", "note": "任せて測る" }, { "word": "承継期", "note": "次へ渡す" }], "crises": ["統率の壁", "委譲の壁", "承継の壁"] },
+    "beats": [
+      { "caption": ["創業期は、社長がすべてを見ている"], "show": 1 },
+      { "caption": ["30人前後で、目が届かなくなる", { "mark": "仮説/経験則" }], "show": 2 },
+      { "caption": ["壁を越えるたびに、社長の役割が変わる"], "show": 4 }
+    ],
+    "closing": { "phrase": "次の壁を先に見る" }, "sources": []
+  },
+  {
+    "id": "fx-constellation", "chapter": 24, "chapterLabel": "終章", "before": "-", "title": "12の設計原理",
+    "summary": ["見本"],
+    "film": { "kind": "constellation", "stars": ["分解する", "効く条件", "経営者の手順", "悪い情報", "人間観", "やる気", "手続き", "独立性", "名指し", "文化", "温度計", "属人化"], "focus": [0, 2, 11], "center": "設計者" },
+    "beats": [
+      { "caption": ["本書の12の原理"], "show": 1 },
+      { "caption": ["一つずつではなく、互いにつながっている"], "show": 2 },
+      { "caption": ["経営者は、組織の設計者です"], "show": 3 }
+    ],
+    "closing": { "phrase": "設計者としての経営者" }, "sources": []
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "name": "textbook-videos",
+  "version": "0.1.0",
+  "private": true,
+  "description": "教科書の図解動画（Remotion）。coffee-community の説明動画と同じ仕組みで作り、wecoffee-os の教科書に埋め込む",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "render": "node scripts/render.mjs",
+    "embed:build": "node scripts/build-embed.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@fontsource/noto-serif-jp": "5.3.0",
+    "@fontsource/zen-kaku-gothic-new": "5.3.0",
+    "@remotion/bundler": "4.0.529",
+    "@remotion/renderer": "4.0.529",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "remotion": "4.0.529"
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "marked": "15.0.12",
+    "typescript": "^5"
+  }
+}
