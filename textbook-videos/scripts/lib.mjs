@@ -157,11 +157,12 @@ export function validateSpec(spec) {
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 
+// OS には明るい表示と暗い表示があるので、文字色は本文から受け継ぎ、枠と地だけ色を付ける
 const MARK_STYLE = {
-  頑健: 'border:1px solid #c9975b;color:#8a5a2b;background:rgba(201,151,91,.12)',
-  有力: 'border:1px solid #c9975b;color:#8a5a2b',
-  '仮説/経験則': 'border:1px dashed #9a948a;color:#6f6a62',
-  俗説注意: 'border:1px dashed #9a948a;color:#6f6a62;text-decoration:line-through',
+  頑健: 'border:1px solid #c9975b;background:rgba(201,151,91,.16)',
+  有力: 'border:1px solid #c9975b',
+  '仮説/経験則': 'border:1px dashed #9a948a;opacity:.85',
+  俗説注意: 'border:1px dashed #9a948a;opacity:.85;text-decoration:line-through',
 }
 const markHtml = (m) => `<span class="ev" style="display:inline-block;margin:0 .25em;padding:0 .5em;border-radius:999px;font-size:.78em;line-height:1.5;vertical-align:.08em;${MARK_STYLE[m]}">【${esc(m)}】</span>`
 export const segsHtml = (segs) => segs.map((s) => (typeof s === 'string' ? esc(s) : markHtml(s.mark))).join('')
